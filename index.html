@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Blog e landing page sobre xadrez: dicas, notícias, estratégias e um tabuleiro interativo para jogar online." />
+    <title>Xadrez Brilhante — Estratégia, Notícias e Jogue Online</title>
+    <link rel="canonical" href="/index.html" />
+    <meta property="og:title" content="Xadrez Brilhante — Estratégia, Notícias e Jogue Online" />
+    <meta property="og:description" content="Aprenda aberturas, táticas, história e benefícios do xadrez com conteúdo em português." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1518544801976-3e3b78c5f9a5?q=80&w=1200&auto=format&fit=crop" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Xadrez Brilhante — Estratégia, Notícias e Jogue Online" />
+    <meta name="twitter:description" content="Aprenda aberturas, táticas, história e benefícios do xadrez com conteúdo em português." />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1518544801976-3e3b78c5f9a5?q=80&w=1200&auto=format&fit=crop" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    
+</head>
+<body>
+    <a href="#main" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;">Pular para o conteúdo</a>
+    <header class="site-header">
+        <div class="container header-wrap">
+            <a class="logo" href="index.html" aria-label="Xadrez Brilhante">
+                ♛ Xadrez <span>Brilhante</span>
+            </a>
+            <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+            <nav class="nav" aria-label="Principal">
+                <ul>
+                    <li><a class="active" href="index.html">Início</a></li>
+                    <li><a href="dicas.html">Dicas de Xadrez</a></li>
+                    <li><a href="noticias.html">Notícias</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- Hero / Introdução -->
+        <section class="hero">
+            <div class="container grid-2">
+                <div class="hero-text">
+                    <h1>Domine o tabuleiro</h1>
+                    <p>
+                        O xadrez é um laboratório de pensamento. Desenvolva raciocínio lógico, memória
+                        e criatividade enquanto aprende aberturas, táticas e estratégias com nossa
+                        comunidade.
+                    </p>
+                    <div class="hero-cta">
+                        <a class="btn btn-primary" href="#introducao">Explorar o xadrez</a>
+                        <a class="btn btn-ghost" href="dicas.html">Começar do zero</a>
+                    </div>
+                </div>
+                <div class="hero-media">
+                    <img 
+                        src="https://images.unsplash.com/photo-1546778313-8e6558f3b3d5?q=80&w=1200&auto=format&fit=crop" 
+                        srcset="https://images.unsplash.com/photo-1546778313-8e6558f3b3d5?q=80&w=600&auto=format&fit=crop 600w, https://images.unsplash.com/photo-1546778313-8e6558f3b3d5?q=80&w=900&auto=format&fit=crop 900w, https://images.unsplash.com/photo-1546778313-8e6558f3b3d5?q=80&w=1200&auto=format&fit=crop 1200w" 
+                        sizes="(max-width: 960px) 100vw, 600px" 
+                        loading="lazy" decoding="async" alt="Peças de xadrez com foco no rei"/>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sumário / TOC -->
+        <nav class="section" aria-label="Sumário">
+            <div class="container">
+                <h2>Sumário</h2>
+                <ul class="nav toc" style="display:flex; flex-wrap:wrap; gap:12px; padding:0; list-style:none;">
+                    <li><a href="#introducao">Introdução</a></li>
+                    <li><a href="#historia">História</a></li>
+                    <li><a href="#estrategias">Estratégias e Táticas</a></li>
+                    <li><a href="#iniciante">Dicas para Iniciantes</a></li>
+                    <li><a href="#mestres">Jogadores Famosos</a></li>
+                    <li><a href="#cerebro">Benefícios Cognitivos</a></li>
+                    <li><a href="#eventos">Notícias e Eventos</a></li>
+                    <li><a href="#guia-visual">Guia Visual</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Introdução detalhada -->
+        <section class="section" id="introducao">
+            <div class="container grid-2">
+                <div>
+                    <h2>Introdução</h2>
+                    <p>O xadrez é um jogo milenar de estratégia e mente que desafia jogadores a
+                        tomar decisões sob pressão, antecipar planos adversários e otimizar recursos.
+                        Ao praticá-lo, você desenvolve memória, concentração, disciplina e competências
+                        de resolução de problemas que se aplicam à vida cotidiana.</p>
+                    <p>Além do aspecto competitivo, o xadrez é uma linguagem universal que conecta
+                        culturas e gerações, promovendo pensamento crítico e resiliência.</p>
+                </div>
+                <div>
+                    <img 
+                        src="https://images.unsplash.com/photo-1518544801976-3e3b78c5f9a5?q=80&w=900&auto=format&fit=crop" 
+                        srcset="https://images.unsplash.com/photo-1518544801976-3e3b78c5f9a5?q=80&w=600&auto=format&fit=crop 600w, https://images.unsplash.com/photo-1518544801976-3e3b78c5f9a5?q=80&w=900&auto=format&fit=crop 900w, https://images.unsplash.com/photo-1518544801976-3e3b78c5f9a5?q=80&w=1200&auto=format&fit=crop 1200w" 
+                        sizes="(max-width: 960px) 100vw, 600px" 
+                        loading="lazy" decoding="async" alt="Relógio e tabuleiro de xadrez em partida" />
+                </div>
+            </div>
+        </section>
+
+        <!-- História do Xadrez -->
+        <section class="section" id="historia">
+            <div class="container grid-2">
+                <div>
+                    <img 
+                        src="https://images.unsplash.com/photo-1546778313-8e6558f3b3d5?q=80&w=900&auto=format&fit=crop" 
+                        srcset="https://images.unsplash.com/photo-1546778313-8e6558f3b3d5?q=80&w=600&auto=format&fit=crop 600w, https://images.unsplash.com/photo-1546778313-8e6558f3b3d5?q=80&w=900&auto=format&fit=crop 900w, https://images.unsplash.com/photo-1546778313-8e6558f3b3d5?q=80&w=1200&auto=format&fit=crop 1200w" 
+                        sizes="(max-width: 960px) 100vw, 600px" 
+                        loading="lazy" decoding="async" alt="Peças de xadrez com destaque histórico" />
+                </div>
+                <div>
+                    <h2>História do Xadrez</h2>
+                    <p>As origens do xadrez remontam ao <em>Chaturanga</em>, jogo indiano do século VI.
+                        Ao longo dos séculos, o jogo se expandiu pelo Oriente Médio e Europa, ganhando
+                        as regras modernas entre os séculos XV e XIX. Seu impacto cultural é vasto,
+                        presente em literatura, cinema, educação e esportes de alto rendimento.</p>
+                    <p>Com a popularização dos torneios e da computação, o xadrez tornou-se um campo
+                        fértil para a ciência de dados, IA e estudos cognitivos, sem perder sua essência
+                        humana: criatividade e estratégia.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Estratégias e Táticas -->
+        <section class="section" id="estrategias">
+            <div class="container">
+                <h2>Estratégias e Táticas</h2>
+                <div class="cards-3">
+                    <article class="card">
+                        <h3>Abertura Espanhola (Ruy Lopez)</h3>
+                        <p>Visa pressionar o cavalo em f6 e o peão e5 após 1.e4 e5 2.Cf3 Cc6 3.Bb5,
+                            buscando controle central e desenvolvimento harmonioso.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Defesa Siciliana</h3>
+                        <p>Após 1.e4 c5, as pretas lutam pelo centro de forma dinâmica, criando
+                            assimetrias e chances táticas com planos na coluna c e alas opostas.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Planos Clássicos</h3>
+                        <p>Dominar estruturas de peões, aproveitar colunas abertas com torres e usar
+                            motivos táticos como garfo, cravada e tática de descoberta.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dicas para Iniciantes -->
+        <section class="section" id="iniciante">
+            <div class="container grid-2">
+                <div>
+                    <h2>Dicas para Iniciantes</h2>
+                    <ul>
+                        <li>Aprenda as regras: movimentos das peças, xeque, xeque-mate e empate.</li>
+                        <li>Controle o centro com peões e desenvolva as peças rapidamente.</li>
+                        <li>Rocheie cedo para proteger o rei e conectar as torres.</li>
+                        <li>Evite mover a mesma peça muitas vezes na abertura.</li>
+                        <li>Pratique táticas básicas diariamente.</li>
+                    </ul>
+                </div>
+                <div>
+                    <img 
+                        src="https://images.unsplash.com/photo-1544672280-9e57a3a0f2b2?q=80&w=900&auto=format&fit=crop" 
+                        srcset="https://images.unsplash.com/photo-1544672280-9e57a3a0f2b2?q=80&w=600&auto=format&fit=crop 600w, https://images.unsplash.com/photo-1544672280-9e57a3a0f2b2?q=80&w=900&auto=format&fit=crop 900w, https://images.unsplash.com/photo-1544672280-9e57a3a0f2b2?q=80&w=1200&auto=format&fit=crop 1200w" 
+                        sizes="(max-width: 960px) 100vw, 600px" 
+                        loading="lazy" decoding="async" alt="Peças de xadrez em perspectiva para iniciantes" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Jogadores Famosos -->
+        <section class="section" id="mestres">
+            <div class="container">
+                <h2>Jogadores Famosos</h2>
+                <div class="cards-3">
+                    <article class="card">
+                        <h3>Garry Kasparov</h3>
+                        <p>Campeão mundial (1985–2000), conhecido por preparação profunda e estilo
+                            combativo. Contribuiu para popularizar a análise assistida por computadores.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Magnus Carlsen</h3>
+                        <p>Campeão mundial múltiplas vezes desde 2013, famoso por técnica em finais,
+                            versatilidade de aberturas e consistência em diferentes controles de tempo.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Bobby Fischer</h3>
+                        <p>Campeão mundial (1972), inovador teórico e ícone cultural; sua vitória no
+                            Match do Século impulsionou o xadrez nos EUA e no mundo.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefícios Cognitivos -->
+        <section class="section" id="cerebro">
+            <div class="container grid-2">
+                <div>
+                    <img 
+                        src="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?q=80&w=900&auto=format&fit=crop" 
+                        srcset="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?q=80&w=600&auto=format&fit=crop 600w, https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?q=80&w=900&auto=format&fit=crop 900w, https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?q=80&w=1200&auto=format&fit=crop 1200w" 
+                        sizes="(max-width: 960px) 100vw, 600px" 
+                        loading="lazy" decoding="async" alt="Tabuleiro de xadrez com iluminação dramática" />
+                </div>
+                <div>
+                    <h2>Como o Xadrez Pode Melhorar Seu Cérebro</h2>
+                    <p>Estudos associam o xadrez a ganhos em funções executivas: planejamento,
+                        inibição, atualização da memória de trabalho e flexibilidade cognitiva.</p>
+                    <p>O treino constante fortalece padrões de reconhecimento, acelera a tomada de
+                        decisão e amplia repertório de soluções para problemas complexos.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Notícias e Eventos -->
+        <section class="section" id="eventos">
+            <div class="container">
+                <h2>Notícias e Eventos</h2>
+                <p>Acompanhe campeonatos como o Campeonato Mundial de Xadrez, circuitos profissionais
+                    e torneios locais com atualizações regulares.</p>
+                <p><a class="btn btn-primary" href="noticias.html">Ver notícias e agenda</a></p>
+            </div>
+        </section>
+
+        <!-- Benefícios cognitivos -->
+        <section class="benefits section">
+            <div class="container">
+                <h2>Por que xadrez?</h2>
+                <div class="cards-3">
+                    <article class="card">
+                        <h3>Raciocínio estratégico</h3>
+                        <p>Planeje vários lances à frente e avalie riscos de forma objetiva.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Memória e padrões</h3>
+                        <p>Reconheça padrões de táticas, estruturas de peões e finais vencedores.</p>
+                    </article>
+                    <article class="card">
+                        <h3>Criatividade</h3>
+                        <p>Encontre recursos inesperados e crie combinações brilhantes no tabuleiro.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Artigos / Blog -->
+        <section class="blog section">
+            <div class="container">
+                <h2>Artigos em destaque</h2>
+                <div class="posts">
+                    <article class="post">
+                        <img 
+                            src="https://images.unsplash.com/photo-1518546305927-5a555bb7020c?q=80&w=900&auto=format&fit=crop" 
+                            srcset="https://images.unsplash.com/photo-1518546305927-5a555bb7020c?q=80&w=600&auto=format&fit=crop 600w, https://images.unsplash.com/photo-1518546305927-5a555bb7020c?q=80&w=900&auto=format&fit=crop 900w, https://images.unsplash.com/photo-1518546305927-5a555bb7020c?q=80&w=1200&auto=format&fit=crop 1200w" 
+                            sizes="(max-width: 960px) 100vw, 360px" 
+                            loading="lazy" decoding="async" alt="Cavalo e torre em tabuleiro de xadrez" />
+                        <div class="post-body">
+                            <h3>Fundamentos de aberturas: controle do centro</h3>
+                            <p>Entenda por que lances como e4/d4 e o rápido desenvolvimento criam
+                                posições saudáveis e chances de ataque.</p>
+                            <a class="link" href="dicas.html#aberturas">Ler mais</a>
+                        </div>
+                    </article>
+                    <article class="post">
+                        <img 
+                            src="https://images.unsplash.com/photo-1544672280-9e57a3a0f2b2?q=80&w=900&auto=format&fit=crop" 
+                            srcset="https://images.unsplash.com/photo-1544672280-9e57a3a0f2b2?q=80&w=600&auto=format&fit=crop 600w, https://images.unsplash.com/photo-1544672280-9e57a3a0f2b2?q=80&w=900&auto=format&fit=crop 900w, https://images.unsplash.com/photo-1544672280-9e57a3a0f2b2?q=80&w=1200&auto=format&fit=crop 1200w" 
+                            sizes="(max-width: 960px) 100vw, 360px" 
+                            loading="lazy" decoding="async" alt="Peças de xadrez alinhadas" />
+                        <div class="post-body">
+                            <h3>Táticas essenciais: garfo, cravada e raio-X</h3>
+                            <p>Domine padrões táticos que decidem partidas, com exemplos práticos e
+                                exercícios.</p>
+                            <a class="link" href="dicas.html#taticas">Ler mais</a>
+                        </div>
+                    </article>
+                    <article class="post">
+                        <img 
+                            src="https://images.unsplash.com/photo-1518544801976-3e3b78c5f9a5?q=80&w=900&auto=format&fit=crop" 
+                            srcset="https://images.unsplash.com/photo-1518544801976-3e3b78c5f9a5?q=80&w=600&auto=format&fit=crop 600w, https://images.unsplash.com/photo-1518544801976-3e3b78c5f9a5?q=80&w=900&auto=format&fit=crop 900w, https://images.unsplash.com/photo-1518544801976-3e3b78c5f9a5?q=80&w=1200&auto=format&fit=crop 1200w" 
+                            sizes="(max-width: 960px) 100vw, 360px" 
+                            loading="lazy" decoding="async" alt="Relógio de xadrez e tabuleiro" />
+                        <div class="post-body">
+                            <h3>Estratégias de médio-jogo</h3>
+                            <p>Transforme vantagens pequenas em vitórias com planos claros e boa
+                                coordenação de peças.</p>
+                            <a class="link" href="dicas.html#meiojogo">Ler mais</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- Guia Visual: Tabuleiro e Peças -->
+        <section class="section" id="guia-visual">
+            <div class="container">
+                <h2>Guia Visual: Tabuleiro e Peças</h2>
+                <p>Reconheça o tabuleiro, entenda a disposição inicial e as funções de cada peça.
+                    Use estas imagens como referência rápida ao estudar.</p>
+                <div class="posts" style="margin-top:16px;">
+                    <article class="post">
+                        <img 
+                            src="https://images.unsplash.com/photo-1518544801976-3e3b78c5f9a5?q=80&w=900&auto=format&fit=crop" 
+                            srcset="https://images.unsplash.com/photo-1518544801976-3e3b78c5f9a5?q=80&w=600&auto=format&fit=crop 600w, https://images.unsplash.com/photo-1518544801976-3e3b78c5f9a5?q=80&w=900&auto=format&fit=crop 900w, https://images.unsplash.com/photo-1518544801976-3e3b78c5f9a5?q=80&w=1200&auto=format&fit=crop 1200w" 
+                            sizes="(max-width: 960px) 100vw, 360px" 
+                            loading="lazy" decoding="async" alt="Tabuleiro de xadrez e relógio" />
+                        <div class="post-body">
+                            <h3>O Tabuleiro</h3>
+                            <p>64 casas alternadas. Lembre-se: a casa clara à direita de cada jogador.</p>
+                            <a class="link" href="https://unsplash.com/s/photos/chess-board" target="_blank" rel="noopener">Ver referência</a>
+                        </div>
+                    </article>
+                    <article class="post">
+                        <img 
+                            src="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?q=80&w=900&auto=format&fit=crop" 
+                            srcset="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?q=80&w=600&auto=format&fit=crop 600w, https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?q=80&w=900&auto=format&fit=crop 900w, https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?q=80&w=1200&auto=format&fit=crop 1200w" 
+                            sizes="(max-width: 960px) 100vw, 360px" 
+                            loading="lazy" decoding="async" alt="Peças de xadrez em destaque" />
+                        <div class="post-body">
+                            <h3>As Peças</h3>
+                            <p>Rei, Dama, Torres, Bispos, Cavalos e Peões: movimentos e valor relativo.</p>
+                            <a class="link" href="https://unsplash.com/s/photos/chess-pieces" target="_blank" rel="noopener">Ver referência</a>
+                        </div>
+                    </article>
+                    <article class="post">
+                        <img 
+                            src="https://images.unsplash.com/photo-1544672280-9e57a3a0f2b2?q=80&w=900&auto=format&fit=crop" 
+                            srcset="https://images.unsplash.com/photo-1544672280-9e57a3a0f2b2?q=80&w=600&auto=format&fit=crop 600w, https://images.unsplash.com/photo-1544672280-9e57a3a0f2b2?q=80&w=900&auto=format&fit=crop 900w, https://images.unsplash.com/photo-1544672280-9e57a3a0f2b2?q=80&w=1200&auto=format&fit=crop 1200w" 
+                            sizes="(max-width: 960px) 100vw, 360px" 
+                            loading="lazy" decoding="async" alt="Partida de xadrez em andamento" />
+                        <div class="post-body">
+                            <h3>Partidas em Ação</h3>
+                            <p>Observe padrões de abertura, meio-jogo e finais em partidas reais.</p>
+                            <a class="link" href="noticias.html">Ver partidas e eventos</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Depoimentos -->
+        <section class="testimonials section">
+            <div class="container">
+                <h2>Depoimentos</h2>
+                <div class="cards-3">
+                    <blockquote class="quote">
+                        <p>“O xadrez é a ginástica da inteligência.”</p>
+                        <footer>— Blaise Pascal</footer>
+                    </blockquote>
+                    <blockquote class="quote">
+                        <p>“Xadrez ensina que cada decisão tem consequências.”</p>
+                        <footer>— Garry Kasparov</footer>
+                    </blockquote>
+                    <blockquote class="quote">
+                        <p>“Estudar finais é o atalho para evoluir no jogo.”</p>
+                        <footer>— José Capablanca</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter section">
+            <div class="container grid-2">
+                <div>
+                    <h2>Receba novidades de xadrez</h2>
+                    <p>Inscreva-se e receba dicas semanais, artigos e partidas comentadas.</p>
+                </div>
+                <form id="newsletter-form" class="newsletter-form" novalidate>
+                    <input type="email" id="newsletter-email" placeholder="Seu melhor e-mail" aria-label="Seu melhor e-mail" required />
+                    <button type="submit" class="btn btn-primary">Inscrever</button>
+                    <small class="form-hint" id="newsletter-hint"></small>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="logo" href="index.html">♛ Xadrez <span>Brilhante</span></a>
+                <p>Estratégia, aprendizado e diversão em um só lugar.</p>
+                <div class="socials">
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                    <a href="#" aria-label="YouTube">YouTube</a>
+                    <a href="#" aria-label="Twitter">Twitter</a>
+                </div>
+            </div>
+            <div>
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="politicas.html">Política de Privacidade</a></li>
+                    <li><a href="termos.html">Termos de Uso</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contato</h4>
+                <p>Email: contato@xadrezbrilhante.com</p>
+                <p>© <span id="year"></span> Xadrez Brilhante</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

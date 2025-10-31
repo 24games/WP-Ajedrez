@@ -1,0 +1,12 @@
+{
+  "name": "Xadrez Brilhante",
+  "short_name": "Xadrez",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0f0f10",
+  "theme_color": "#0f0f10",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "64x64", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
+
