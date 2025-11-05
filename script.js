@@ -47,14 +47,45 @@
 (function(){
     document.addEventListener('click', function(e){
         const t = e.target;
-        if (t instanceof HTMLAnchorElement && t.hash && t.getAttribute('href')?.startsWith('#')) {
-            const el = document.querySelector(t.hash);
-            if (el) {
-                e.preventDefault();
-                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        if (t instanceof HTMLAnchorElement) {
+            const href = t.getAttribute('href');
+            // Links que começam com # (âncora na mesma página)
+            if (href && href.startsWith('#') && t.hash) {
+                const el = document.querySelector(t.hash);
+                if (el) {
+                    e.preventDefault();
+                    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            }
+            // Links que começam com /# (âncora na página inicial)
+            else if (href && href.startsWith('/#') && t.hash) {
+                // Se estamos na página inicial, apenas faz scroll
+                if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
+                    e.preventDefault();
+                    const el = document.querySelector(t.hash);
+                    if (el) {
+                        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                }
+                // Se não estamos na página inicial, navega para lá com o hash
+                // O navegador vai fazer o scroll automaticamente após carregar
             }
         }
     });
+})();
+
+// Scroll automático quando a página carrega com hash na URL
+(function(){
+    if (window.location.hash) {
+        const hash = window.location.hash;
+        const el = document.querySelector(hash);
+        if (el) {
+            // Pequeno delay para garantir que a página carregou completamente
+            setTimeout(() => {
+                el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }, 100);
+        }
+    }
 })();
 
 // Voltar ao topo e Scroll Spy
