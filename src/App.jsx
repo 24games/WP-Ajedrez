@@ -11,7 +11,6 @@ import Beginners from './components/sections/Beginners'
 import Masters from './components/sections/Masters'
 import CognitiveBenefits from './components/sections/CognitiveBenefits'
 import Benefits from './components/sections/Benefits'
-import Events from './components/sections/Events'
 import BlogPosts from './components/sections/BlogPosts'
 import VisualGuide from './components/sections/VisualGuide'
 import Testimonials from './components/sections/Testimonials'
@@ -37,7 +36,6 @@ function App() {
           <Beginners />
           <Masters />
           <CognitiveBenefits />
-          <Events />
           <Benefits />
           <BlogPosts />
           <VisualGuide />

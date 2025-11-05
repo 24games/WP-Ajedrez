@@ -6,19 +6,19 @@ export default function BlogPosts() {
       image: 'https://images.unsplash.com/photo-1560174038-da43ac74f01b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=857',
       title: 'Fundamentos de aberturas: controle do centro',
       description: 'Entenda por que lances como e4/d4 e o rápido desenvolvimento criam posições saudáveis e chances de ataque.',
-      link: '#'
+      link: 'artigo-aberturas.html'
     },
     {
       image: 'https://images.unsplash.com/photo-1529699211952-734e80c4d42b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1471',
       title: 'Táticas essenciais: garfo, cravada e raio-X',
       description: 'Domine padrões táticos que decidem partidas, com exemplos práticos e exercícios.',
-      link: '#'
+      link: 'artigo-taticas.html'
     },
     {
       image: 'https://www.chesshouse.com/cdn/shop/products/regulation-chess-set-timer-combo-28273249714263.jpg?v=1628340168&width=700',
       title: 'Estratégias de médio-jogo',
       description: 'Transforme vantagens pequenas em vitórias com planos claros e boa coordenação de peças.',
-      link: '#'
+      link: 'artigo-meiojogo.html'
     }
   ]
 

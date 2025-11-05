@@ -14,23 +14,15 @@ export default function Footer() {
             <p className="text-gray-600 dark:text-gray-400 mb-4">
               Estratégia, aprendizado e diversão em um só lugar.
             </p>
-            <div className="flex gap-4">
-              <a href="#" className="text-gray-600 dark:text-gray-400 hover:text-gold transition-colors" aria-label="Instagram">Instagram</a>
-              <a href="#" className="text-gray-600 dark:text-gray-400 hover:text-gold transition-colors" aria-label="YouTube">YouTube</a>
-              <a href="#" className="text-gray-600 dark:text-gray-400 hover:text-gold transition-colors" aria-label="Twitter">Twitter</a>
-            </div>
           </div>
           <div>
             <h4 className="font-semibold text-gray-900 dark:text-white mb-4">Links</h4>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-600 dark:text-gray-400 hover:text-gold transition-colors">Política de Privacidade</a></li>
               <li><a href="#" className="text-gray-600 dark:text-gray-400 hover:text-gold transition-colors">Termos de Uso</a></li>
-              <li><a href="#" className="text-gray-600 dark:text-gray-400 hover:text-gold transition-colors">Contato</a></li>
             </ul>
           </div>
           <div>
-            <h4 className="font-semibold text-gray-900 dark:text-white mb-4">Contato</h4>
-            <p className="text-gray-600 dark:text-gray-400 mb-2">Email: contato@xadrezbrilhante.com</p>
             <p className="text-gray-600 dark:text-gray-400">© {currentYear} Xadrez Brilhante</p>
           </div>
         </div>

@@ -6,19 +6,19 @@ export default function VisualGuide() {
       image: 'https://www.chesshouse.com/cdn/shop/products/regulation-chess-set-timer-combo-28273249714263.jpg?v=1628340168&width=700',
       title: 'O Tabuleiro',
       description: '64 casas alternadas. Lembre-se: a casa clara à direita de cada jogador.',
-      link: 'https://unsplash.com/s/photos/chess-board'
+      link: 'guia-tabuleiro.html'
     },
     {
       image: 'https://images.unsplash.com/photo-1604948501466-4e9c339b9c24?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470',
       title: 'As Peças',
       description: 'Rei, Dama, Torres, Bispos, Cavalos e Peões: movimentos e valor relativo.',
-      link: 'https://unsplash.com/s/photos/chess-pieces'
+      link: 'guia-pecas.html'
     },
     {
       image: 'https://images.unsplash.com/photo-1529699211952-734e80c4d42b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1471',
       title: 'Partidas em Ação',
       description: 'Observe padrões de abertura, meio-jogo e finais em partidas reais.',
-      link: '#eventos'
+      link: 'noticias.html'
     }
   ]
 
@@ -57,7 +57,7 @@ export default function VisualGuide() {
                   rel={guide.link.startsWith('http') ? 'noopener noreferrer' : undefined}
                   className="text-gold font-semibold hover:underline inline-block"
                 >
-                  Ver referência →
+                  {guide.link.startsWith('http') ? 'Ver referência →' : 'Ler mais →'}
                 </a>
               </div>
             </article>

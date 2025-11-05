@@ -10,6 +10,39 @@
     }
 })();
 
+// Menu de Sumário (TOC)
+(function () {
+    const tocToggle = document.getElementById('toc-toggle');
+    const tocMenu = document.getElementById('toc-menu');
+    const tocMenuWrapper = tocMenu?.querySelector('.toc-menu-wrapper');
+    
+    if (tocToggle && tocMenu && tocMenuWrapper) {
+        const updateMenuPosition = () => {
+            if (tocMenu.style.display !== 'none') {
+                const toggleRect = tocToggle.getBoundingClientRect();
+                const container = tocMenu.closest('.container');
+                const containerRect = container?.getBoundingClientRect();
+                if (toggleRect && containerRect) {
+                    const containerPadding = parseInt(getComputedStyle(container).paddingLeft) || 0;
+                    const offsetLeft = toggleRect.left - containerRect.left - containerPadding;
+                    tocMenuWrapper.style.marginLeft = Math.max(0, offsetLeft) + 'px';
+                }
+            }
+        };
+        
+        tocToggle.addEventListener('click', () => {
+            const isOpen = tocMenu.style.display !== 'none';
+            tocMenu.style.display = isOpen ? 'none' : 'block';
+            tocToggle.setAttribute('aria-expanded', String(!isOpen));
+            if (!isOpen) {
+                setTimeout(updateMenuPosition, 0);
+            }
+        });
+        
+        window.addEventListener('resize', updateMenuPosition);
+    }
+})();
+
 // Smooth scroll para âncoras internas
 (function(){
     document.addEventListener('click', function(e){
@@ -35,7 +68,7 @@
     }
 
     // Scroll spy para nav e TOC
-    const sectionIds = ['introducao','historia','estrategias','iniciante','mestres','cerebro','eventos','guia-visual','aberturas','taticas','meiojogo','finais'];
+    const sectionIds = ['introducao','historia','estrategias','iniciante','mestres','cerebro','guia-visual','aberturas','taticas','meiojogo','finais'];
     const sections = sectionIds
         .map(id => document.getElementById(id))
         .filter(Boolean);

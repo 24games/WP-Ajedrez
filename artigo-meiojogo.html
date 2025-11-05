@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estratégias de Médio-Jogo — Xadrez Brilhante</title>
+    <link rel="canonical" href="/artigo-meiojogo.html" />
+    <meta name="description" content="Transforme vantagens pequenas em vitórias com planos claros e boa coordenação de peças no médio-jogo." />
+    <meta property="og:title" content="Estratégias de Médio-Jogo — Xadrez Brilhante" />
+    <meta property="og:description" content="Transforme vantagens pequenas em vitórias com planos claros e boa coordenação de peças no médio-jogo." />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="https://www.chesshouse.com/cdn/shop/products/regulation-chess-set-timer-combo-28273249714263.jpg?v=1628340168&width=700" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Estratégias de Médio-Jogo" />
+    <meta name="twitter:description" content="Transforme vantagens pequenas em vitórias com planos claros e boa coordenação de peças." />
+    <meta name="twitter:image" content="https://www.chesshouse.com/cdn/shop/products/regulation-chess-set-timer-combo-28273249714263.jpg?v=1628340168&width=700" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+</head>
+<body>
+    <a href="#main" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;">Pular para o conteúdo</a>
+    <header class="site-header">
+        <div class="header-wrap">
+            <div class="container">
+                <a class="logo" href="index.html" aria-label="Xadrez Brilhante">
+                    ♛ Xadrez <span>Brilhante</span>
+                </a>
+                <div class="header-actions">
+                    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+                    <nav class="nav" aria-label="Principal">
+                        <ul>
+                            <li><a href="index.html">Início</a></li>
+                            <li><a href="dicas.html">Dicas de Xadrez</a></li>
+                            <li><a href="noticias.html">Notícias</a></li>
+                            <li><button class="toc-toggle" id="toc-toggle" aria-label="Abrir sumário" aria-expanded="false">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="32" height="32" rx="6" fill="url(#menuGradient)" />
+                                    <line x1="8" y1="11" x2="24" y2="11" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"/>
+                                    <line x1="8" y1="16" x2="24" y2="16" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"/>
+                                    <line x1="8" y1="21" x2="24" y2="21" stroke="#1a1a1a" stroke-width="2" stroke-linecap="round"/>
+                                    <defs>
+                                        <linearGradient id="menuGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#f5f5f5;stop-opacity:1" />
+                                            <stop offset="100%" style="stop-color:#e8e8e8;stop-opacity:1" />
+                                        </linearGradient>
+                                    </defs>
+                                </svg>
+                            </button></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <nav class="toc-menu" id="toc-menu" aria-label="Sumário" style="display: none;">
+                <div class="container">
+                    <div class="toc-menu-wrapper">
+                        <ul class="toc-list-vertical">
+                            <li><a href="index.html#introducao">Introdução</a></li>
+                            <li><a href="index.html#historia">História</a></li>
+                            <li><a href="index.html#estrategias">Estratégias e Táticas</a></li>
+                            <li><a href="index.html#iniciante">Dicas para Iniciantes</a></li>
+                            <li><a href="index.html#mestres">Jogadores Famosos</a></li>
+                            <li><a href="index.html#cerebro">Benefícios Cognitivos</a></li>
+                            <li><a href="index.html#guia-visual">Guia Visual</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <article class="section">
+            <div class="container">
+                <a href="index.html" class="link" style="display:inline-block;margin-bottom:20px;">← Voltar ao início</a>
+                
+                <header style="margin-bottom:32px;">
+                    <h1>Estratégias de Médio-Jogo</h1>
+                    <p class="muted" style="font-size:18px;margin-top:12px;">Transforme vantagens pequenas em vitórias com planos claros e boa coordenação de peças.</p>
+                </header>
+
+                <img 
+                    src="https://www.chesshouse.com/cdn/shop/products/regulation-chess-set-timer-combo-28273249714263.jpg?v=1628340168&width=700" 
+                    alt="Relógio de xadrez e tabuleiro" 
+                    style="width:100%;max-width:800px;height:auto;border-radius:12px;margin:32px 0;display:block;"
+                    loading="lazy" 
+                    decoding="async" 
+                />
+
+                <div style="max-width:800px;line-height:1.8;">
+                    <h2>O que é o médio-jogo?</h2>
+                    <p>O médio-jogo começa após a abertura, quando a maioria das peças foi desenvolvida e os reis estão seguros. É a fase mais complexa e criativa do xadrez, onde estratégia e tática se encontram.</p>
+
+                    <h2>Princípios fundamentais</h2>
+                    
+                    <h3>1. Avalie a posição</h3>
+                    <p>Antes de fazer planos, é essencial entender a posição. Considere:</p>
+                    <ul style="margin:20px 0;padding-left:24px;">
+                        <li><strong>Material:</strong> Você tem mais ou menos material?</li>
+                        <li><strong>Desenvolvimento:</strong> Suas peças estão bem posicionadas?</li>
+                        <li><strong>Estrutura de peões:</strong> Você tem peões passados, dobrados ou isolados?</li>
+                        <li><strong>Segurança do rei:</strong> O rei adversário está exposto?</li>
+                        <li><strong>Controle do centro:</strong> Quem controla o centro?</li>
+                        <li><strong>Linhas abertas:</strong> Existem fileiras ou diagonais abertas?</li>
+                    </ul>
+
+                    <h3>2. Crie um plano</h3>
+                    <p>Com base na avaliação, desenvolva um plano claro. Seus planos devem ser:</p>
+                    <ul style="margin:20px 0;padding-left:24px;">
+                        <li><strong>Realistas:</strong> Baseados nas características da posição.</li>
+                        <li><strong>Flexíveis:</strong> Adaptáveis às respostas do oponente.</li>
+                        <li><strong>Progressivos:</strong> Cada movimento deve avançar seu plano.</li>
+                    </ul>
+
+                    <h2>Estratégias comuns</h2>
+
+                    <h3>Ataque ao rei</h3>
+                    <p>Quando o rei adversário está exposto, concentre suas peças para atacar. Características que indicam oportunidade de ataque:</p>
+                    <ul style="margin:20px 0;padding-left:24px;">
+                        <li>Rei não rocado ou com peões enfraquecidos à sua frente.</li>
+                        <li>Falta de peças defensivas ao redor do rei.</li>
+                        <li>Linhas abertas em direção ao rei.</li>
+                    </ul>
+
+                    <h3>Exploração de fraquezas</h3>
+                    <p>Identifique e explore fraquezas na posição adversária:</p>
+                    <ul style="margin:20px 0;padding-left:24px;">
+                        <li><strong>Peões fracos:</strong> Peões isolados, dobrados ou atrasados.</li>
+                        <li><strong>Casas fracas:</strong> Casas que não podem ser defendidas por peões.</li>
+                        <li><strong>Peças mal posicionadas:</strong> Peças que não podem se mover ou se defender.</li>
+                        <li><strong>Rei exposto:</strong> Sem proteção adequada.</li>
+                    </ul>
+
+                    <h3>Coordenação de peças</h3>
+                    <p>Suas peças devem trabalhar em conjunto:</p>
+                    <div style="background:var(--card);padding:20px;border-radius:8px;margin:20px 0;border:1px solid var(--border);">
+                        <p><strong>Exemplo:</strong> Torres em fileiras abertas, bispos em diagonais fortes, e cavalos em casas avançadas que ameaçam múltiplas casas importantes.</p>
+                    </div>
+
+                    <h3>Controle de espaço</h3>
+                    <p>Ter mais espaço permite mais flexibilidade:</p>
+                    <ul style="margin:20px 0;padding-left:24px;">
+                        <li>Avance peões para ganhar espaço.</li>
+                        <li>Use suas peças para restringir as peças adversárias.</li>
+                        <li>Troque quando estiver com espaço limitado.</li>
+                    </ul>
+
+                    <h2>Transformando vantagens</h2>
+
+                    <h3>Vantagem de material</h3>
+                    <p>Se você tem mais material:</p>
+                    <ul style="margin:20px 0;padding-left:24px;">
+                        <li>Simplifique a posição através de trocas.</li>
+                        <li>Evite complicações desnecessárias.</li>
+                        <li>Conduza para um final favorável.</li>
+                    </ul>
+
+                    <h3>Vantagem posicional</h3>
+                    <p>Se você tem melhor posição:</p>
+                    <ul style="margin:20px 0;padding-left:24px;">
+                        <li>Amplie sua vantagem gradualmente.</li>
+                        <li>Evite trocas que reduzam a pressão.</li>
+                        <li>Procure por maneiras de converter em vantagem material.</li>
+                    </ul>
+
+                    <h3>Vantagem de tempo</h3>
+                    <p>Se você está mais desenvolvido:</p>
+                    <ul style="margin:20px 0;padding-left:24px;">
+                        <li>Use sua iniciativa para atacar.</li>
+                        <li>Não permita que o oponente se organize.</li>
+                        <li>Mantenha a pressão constante.</li>
+                    </ul>
+
+                    <h2>Técnicas avançadas</h2>
+
+                    <h3>Manobras</h3>
+                    <p>Às vezes, é necessário reposicionar peças para melhorar sua posição. Isso pode envolver vários movimentos, mas é essencial para manter a iniciativa.</p>
+
+                    <h3>Profilaxia</h3>
+                    <p>Antecipe os planos do oponente e os neutralize antes que se tornem perigosos. Esta é uma técnica usada por jogadores posicionais experientes.</p>
+
+                    <h3>Sacrifícios posicionais</h3>
+                    <p>Sacrifique material para obter vantagens posicionais duradouras, como estrutura de peões superior ou rei exposto do oponente.</p>
+
+                    <h2>Erros comuns a evitar</h2>
+                    <ul style="margin:20px 0;padding-left:24px;">
+                        <li>Jogar sem um plano claro.</li>
+                        <li>Fazer movimentos que não servem a um propósito.</li>
+                        <li>Ignorar as ameaças do oponente.</li>
+                        <li>Ser muito passivo quando se tem iniciativa.</li>
+                        <li>Ser muito agressivo quando se está em desvantagem.</li>
+                        <li>Não aproveitar vantagens temporárias.</li>
+                    </ul>
+
+                    <h2>Como estudar o médio-jogo</h2>
+                    <ol style="margin:20px 0;padding-left:24px;">
+                        <li><strong>Analise partidas de grandes mestres:</strong> Observe como eles planejam e executam estratégias.</li>
+                        <li><strong>Estude posições típicas:</strong> Familiarize-se com padrões comuns do médio-jogo.</li>
+                        <li><strong>Resolva exercícios posicionais:</strong> Pratique encontrar os melhores planos.</li>
+                        <li><strong>Analise suas próprias partidas:</strong> Identifique onde seus planos falharam ou poderiam ter sido melhores.</li>
+                        <li><strong>Jogue partidas longas:</strong> Dê tempo para pensar profundamente sobre cada posição.</li>
+                    </ol>
+
+                    <h2>Conclusão</h2>
+                    <p>O médio-jogo é onde a verdadeira arte do xadrez se manifesta. Dominar a avaliação de posições, criação de planos e coordenação de peças transformará sua força de jogo. Lembre-se: cada posição é única, mas os princípios fundamentais sempre se aplicam. Pratique, analise e aprenda continuamente.</p>
+
+                    <div style="margin-top:40px;padding-top:32px;border-top:1px solid var(--border);">
+                        <p><strong>Próximos passos:</strong></p>
+                        <ul style="margin:20px 0;padding-left:24px;">
+                            <li><a href="artigo-aberturas.html" class="link">Aprenda sobre aberturas e controle do centro</a></li>
+                            <li><a href="artigo-taticas.html" class="link">Domine táticas essenciais</a></li>
+                            <li><a href="dicas.html" class="link">Explore mais dicas de xadrez</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="logo" href="index.html">♛ Xadrez <span>Brilhante</span></a>
+                <p>Estratégia, aprendizado e diversão em um só lugar.</p>
+            </div>
+            <div>
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="politicas.html">Política de Privacidade</a></li>
+                    <li><a href="termos.html">Termos de Uso</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>© <span id="year"></span> Xadrez Brilhante</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

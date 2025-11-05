@@ -15,7 +15,6 @@ export default function TableOfContents() {
     { id: 'iniciante', label: 'Dicas para Iniciantes' },
     { id: 'mestres', label: 'Jogadores Famosos' },
     { id: 'cerebro', label: 'Benefícios Cognitivos' },
-    { id: 'eventos', label: 'Notícias e Eventos' },
     { id: 'guia-visual', label: 'Guia Visual' },
   ]
 
