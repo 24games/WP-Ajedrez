@@ -7,7 +7,7 @@ export default function History() {
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-200 dark:border-gray-700 order-2 md:order-1">
             <img 
-              src="https://images.unsplash.com/photo-1546778313-8e6558f3b3d5?q=80&w=900&auto=format&fit=crop" 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Chess-king.JPG/960px-Chess-king.JPG?20100812210716" 
               alt="Peças de xadrez com destaque histórico"
               className="w-full h-auto"
               loading="lazy"

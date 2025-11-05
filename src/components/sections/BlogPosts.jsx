@@ -3,19 +3,19 @@ import React from 'react'
 export default function BlogPosts() {
   const posts = [
     {
-      image: 'https://images.unsplash.com/photo-1518546305927-5a555bb7020c?q=80&w=900&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1560174038-da43ac74f01b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=857',
       title: 'Fundamentos de aberturas: controle do centro',
       description: 'Entenda por que lances como e4/d4 e o rápido desenvolvimento criam posições saudáveis e chances de ataque.',
       link: '#'
     },
     {
-      image: 'https://images.unsplash.com/photo-1544672280-9e57a3a0f2b2?q=80&w=900&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1529699211952-734e80c4d42b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1471',
       title: 'Táticas essenciais: garfo, cravada e raio-X',
       description: 'Domine padrões táticos que decidem partidas, com exemplos práticos e exercícios.',
       link: '#'
     },
     {
-      image: 'https://images.unsplash.com/photo-1518544801976-3e3b78c5f9a5?q=80&w=900&auto=format&fit=crop',
+      image: 'https://www.chesshouse.com/cdn/shop/products/regulation-chess-set-timer-combo-28273249714263.jpg?v=1628340168&width=700',
       title: 'Estratégias de médio-jogo',
       description: 'Transforme vantagens pequenas em vitórias com planos claros e boa coordenação de peças.',
       link: '#'

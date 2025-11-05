@@ -20,7 +20,7 @@ export default function Introduction() {
           </div>
           <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-200 dark:border-gray-700">
             <img 
-              src="https://images.unsplash.com/photo-1518544801976-3e3b78c5f9a5?q=80&w=900&auto=format&fit=crop" 
+              src="https://www.chesshouse.com/cdn/shop/products/regulation-chess-set-timer-combo-28273249714263.jpg?v=1628340168&width=700" 
               alt="Relógio e tabuleiro de xadrez em partida"
               className="w-full h-auto"
               loading="lazy"

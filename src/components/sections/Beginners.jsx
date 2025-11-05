@@ -26,7 +26,7 @@ export default function Beginners() {
           </div>
           <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-200 dark:border-gray-700">
             <img 
-              src="https://images.unsplash.com/photo-1544672280-9e57a3a0f2b2?q=80&w=900&auto=format&fit=crop" 
+              src="https://images.unsplash.com/photo-1529699211952-734e80c4d42b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1471" 
               alt="Peças de xadrez em perspectiva para iniciantes"
               className="w-full h-auto"
               loading="lazy"

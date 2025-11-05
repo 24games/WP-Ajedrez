@@ -3,19 +3,19 @@ import React from 'react'
 export default function VisualGuide() {
   const guides = [
     {
-      image: 'https://images.unsplash.com/photo-1518544801976-3e3b78c5f9a5?q=80&w=900&auto=format&fit=crop',
+      image: 'https://www.chesshouse.com/cdn/shop/products/regulation-chess-set-timer-combo-28273249714263.jpg?v=1628340168&width=700',
       title: 'O Tabuleiro',
       description: '64 casas alternadas. Lembre-se: a casa clara à direita de cada jogador.',
       link: 'https://unsplash.com/s/photos/chess-board'
     },
     {
-      image: 'https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?q=80&w=900&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1604948501466-4e9c339b9c24?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470',
       title: 'As Peças',
       description: 'Rei, Dama, Torres, Bispos, Cavalos e Peões: movimentos e valor relativo.',
       link: 'https://unsplash.com/s/photos/chess-pieces'
     },
     {
-      image: 'https://images.unsplash.com/photo-1544672280-9e57a3a0f2b2?q=80&w=900&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1529699211952-734e80c4d42b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1471',
       title: 'Partidas em Ação',
       description: 'Observe padrões de abertura, meio-jogo e finais em partidas reais.',
       link: '#eventos'

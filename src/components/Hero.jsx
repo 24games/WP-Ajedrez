@@ -38,7 +38,7 @@ export default function Hero() {
           </div>
           <div className="rounded-2xl overflow-hidden shadow-2xl border border-gray-200 dark:border-gray-700">
             <img 
-              src="https://images.unsplash.com/photo-1546778313-8e6558f3b3d5?q=80&w=1200&auto=format&fit=crop" 
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Chess-king.JPG/960px-Chess-king.JPG?20100812210716" 
               alt="Peças de xadrez com foco no rei"
               className="w-full h-auto"
               loading="lazy"
