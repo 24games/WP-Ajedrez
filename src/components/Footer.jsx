@@ -26,6 +26,11 @@ export default function Footer() {
             <p className="text-gray-600 dark:text-gray-400">© {currentYear} Xadrez Brilhante</p>
           </div>
         </div>
+        <div className="container mx-auto px-4 mt-8 pt-8 border-t border-gray-200 dark:border-gray-800">
+          <p className="text-center text-sm text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
+            <strong>Aviso:</strong> Este site é apenas informativo e educacional. Não há ganho financeiro, monetização ou qualquer forma de receita associada a este projeto. Todo o conteúdo é fornecido gratuitamente para fins de aprendizado e entretenimento.
+          </p>
+        </div>
       </div>
     </footer>
   )
