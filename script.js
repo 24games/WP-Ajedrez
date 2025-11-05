@@ -217,13 +217,13 @@
 
     function updateStatus() {
         let status = '';
-        const moveColor = game.turn() === 'w' ? 'Brancas' : 'Negras';
+        const moveColor = game.turn() === 'w' ? 'Blancas' : 'Negras';
         if (game.isCheckmate()) {
-            status = `Xeque-mate! ${moveColor === 'Brancas' ? 'Negras' : 'Brancas'} vencem.`;
+            status = `¡Jaque mate! ${moveColor === 'Blancas' ? 'Negras' : 'Blancas'} ganan.`;
         } else if (game.isDraw()) {
             status = 'Empate.';
         } else {
-            status = `${moveColor} a jogar${game.isCheck() ? ' (xeque!)' : ''}.`;
+            status = `${moveColor} a jugar${game.isCheck() ? ' (¡jaque!)' : ''}.`;
         }
         if (statusEl) statusEl.textContent = status;
     }

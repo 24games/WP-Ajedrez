@@ -9,19 +9,19 @@ export default function TableOfContents() {
   }
 
   const sections = [
-    { id: 'introducao', label: 'Introdução' },
-    { id: 'historia', label: 'História' },
-    { id: 'estrategias', label: 'Estratégias e Táticas' },
-    { id: 'iniciante', label: 'Dicas para Iniciantes' },
-    { id: 'mestres', label: 'Jogadores Famosos' },
-    { id: 'cerebro', label: 'Benefícios Cognitivos' },
-    { id: 'guia-visual', label: 'Guia Visual' },
+    { id: 'introducao', label: 'Introducción' },
+    { id: 'historia', label: 'Historia' },
+    { id: 'estrategias', label: 'Estrategias y Tácticas' },
+    { id: 'iniciante', label: 'Consejos para Principiantes' },
+    { id: 'mestres', label: 'Jugadores Famosos' },
+    { id: 'cerebro', label: 'Beneficios Cognitivos' },
+    { id: 'guia-visual', label: 'Guía Visual' },
   ]
 
   return (
-    <nav className="py-12 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700" aria-label="Sumário">
+    <nav className="py-12 bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700" aria-label="Sumario">
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Sumário</h2>
+        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Sumario</h2>
         <ul className="flex flex-wrap gap-3 list-none p-0">
           {sections.map((section) => (
             <li key={section.id}>

@@ -4,15 +4,15 @@ export default function Masters() {
   const masters = [
     {
       name: 'Garry Kasparov',
-      description: 'Campeão mundial (1985–2000), conhecido por preparação profunda e estilo combativo. Contribuiu para popularizar a análise assistida por computadores.'
+      description: 'Campeón mundial (1985–2000), conocido por preparación profunda y estilo combativo. Contribuyó a popularizar el análisis asistido por computadoras.'
     },
     {
       name: 'Magnus Carlsen',
-      description: 'Campeão mundial múltiplas vezes desde 2013, famoso por técnica em finais, versatilidade de aberturas e consistência em diferentes controles de tempo.'
+      description: 'Campeón mundial múltiples veces desde 2013, famoso por técnica en finales, versatilidad de aperturas y consistencia en diferentes controles de tiempo.'
     },
     {
       name: 'Bobby Fischer',
-      description: 'Campeão mundial (1972), inovador teórico e ícone cultural; sua vitória no Match do Século impulsionou o xadrez nos EUA e no mundo.'
+      description: 'Campeón mundial (1972), innovador teórico e icono cultural; su victoria en el Match del Siglo impulsó el ajedrez en EE. UU. y en el mundo.'
     }
   ]
 
@@ -20,7 +20,7 @@ export default function Masters() {
     <section id="mestres" className="py-16 md:py-24 bg-white dark:bg-gray-900">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-12 text-center">
-          Jogadores Famosos
+          Jugadores Famosos
         </h2>
         <div className="grid md:grid-cols-3 gap-6">
           {masters.map((master, index) => (

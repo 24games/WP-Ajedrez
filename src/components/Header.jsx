@@ -72,7 +72,7 @@ export default function Header() {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="text-xl font-bold text-gray-900 dark:text-white hover:opacity-80 transition-opacity"
           >
-            ♛ Xadrez <span className="text-gold">Brilhante</span>
+            ♛ Ajedrez <span className="text-gold">Brillante</span>
           </button>
           
           <div className="flex items-center gap-4">
@@ -81,7 +81,7 @@ export default function Header() {
             <button
               className="md:hidden p-2 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-700"
               onClick={toggleMenu}
-              aria-label="Abrir menu"
+              aria-label="Abrir menú"
               aria-expanded={isMenuOpen}
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -102,7 +102,7 @@ export default function Header() {
                   className="block px-4 py-2 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 font-medium transition-colors"
                   onClick={handleLinkClick}
                 >
-                  Início
+                  Inicio
                 </a>
               </li>
               <li>
@@ -111,7 +111,7 @@ export default function Header() {
                   className="block px-4 py-2 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 font-medium transition-colors"
                   onClick={handleLinkClick}
                 >
-                  Estratégias
+                  Estrategias
                 </a>
               </li>
               <li>
@@ -120,7 +120,7 @@ export default function Header() {
                   className="block px-4 py-2 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 font-medium transition-colors"
                   onClick={handleLinkClick}
                 >
-                  Para Iniciantes
+                  Para Principiantes
                 </a>
               </li>
               <li>
@@ -129,7 +129,7 @@ export default function Header() {
                   className="block px-4 py-2 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 font-medium transition-colors"
                   onClick={handleLinkClick}
                 >
-                  Mestres
+                  Jugadores Famosos
                 </a>
               </li>
               <li className="md:ml-2">
@@ -137,7 +137,7 @@ export default function Header() {
                   ref={tocButtonRef}
                   onClick={toggleToc}
                   className="w-8 h-8 flex items-center justify-center p-0 border-none bg-transparent hover:-translate-y-0.5 transition-all duration-200 ease-in-out"
-                  aria-label="Abrir sumário"
+                  aria-label="Abrir sumario"
                   aria-expanded={isTocOpen}
                 >
                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="rounded-md shadow-sm hover:shadow-md transition-shadow">
@@ -159,18 +159,18 @@ export default function Header() {
         </div>
         
         {isTocOpen && (
-          <nav ref={tocMenuRef} className="bg-gray-50 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-2" aria-label="Sumário">
+          <nav ref={tocMenuRef} className="bg-gray-50 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-2" aria-label="Sumario">
             <div className="container mx-auto px-4">
               <div className="inline-flex flex-col items-start">
                 <ul className="flex flex-col gap-0.5 items-start">
                   {[
-                    { id: 'introducao', label: 'Introdução' },
-                    { id: 'historia', label: 'História' },
-                    { id: 'estrategias', label: 'Estratégias e Táticas' },
-                    { id: 'iniciante', label: 'Dicas para Iniciantes' },
-                    { id: 'mestres', label: 'Jogadores Famosos' },
-                    { id: 'cerebro', label: 'Benefícios Cognitivos' },
-                    { id: 'guia-visual', label: 'Guia Visual' },
+                    { id: 'introducao', label: 'Introducción' },
+                    { id: 'historia', label: 'Historia' },
+                    { id: 'estrategias', label: 'Estrategias y Tácticas' },
+                    { id: 'iniciante', label: 'Consejos para Principiantes' },
+                    { id: 'mestres', label: 'Jugadores Famosos' },
+                    { id: 'cerebro', label: 'Beneficios Cognitivos' },
+                    { id: 'guia-visual', label: 'Guía Visual' },
                   ].map((section) => (
                     <li key={section.id}>
                       <button

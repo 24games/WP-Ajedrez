@@ -3,16 +3,16 @@ import React from 'react'
 export default function Benefits() {
   const benefits = [
     {
-      title: 'Raciocínio estratégico',
-      description: 'Planeje vários lances à frente e avalie riscos de forma objetiva.'
+      title: 'Razonamiento estratégico',
+      description: 'Planea varios movimientos por delante y evalúa riesgos de forma objetiva.'
     },
     {
-      title: 'Memória e padrões',
-      description: 'Reconheça padrões de táticas, estruturas de peões e finais vencedores.'
+      title: 'Memoria y patrones',
+      description: 'Reconoce patrones de tácticas, estructuras de peones y finales ganadores.'
     },
     {
-      title: 'Criatividade',
-      description: 'Encontre recursos inesperados e crie combinações brilhantes no tabuleiro.'
+      title: 'Creatividad',
+      description: 'Encuentra recursos inesperados y crea combinaciones brillantes en el tablero.'
     }
   ]
 
@@ -20,7 +20,7 @@ export default function Benefits() {
     <section className="py-16 md:py-24 bg-white dark:bg-gray-900">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-12 text-center">
-          Por que xadrez?
+          ¿Por qué ajedrez?
         </h2>
         <div className="grid md:grid-cols-3 gap-6">
           {benefits.map((benefit, index) => (

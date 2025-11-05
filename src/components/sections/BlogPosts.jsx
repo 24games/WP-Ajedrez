@@ -4,20 +4,20 @@ export default function BlogPosts() {
   const posts = [
     {
       image: 'https://images.unsplash.com/photo-1560174038-da43ac74f01b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=857',
-      title: 'Fundamentos de aberturas: controle do centro',
-      description: 'Entenda por que lances como e4/d4 e o rápido desenvolvimento criam posições saudáveis e chances de ataque.',
+      title: 'Fundamentos de aperturas: control del centro',
+      description: 'Entiende por qué movimientos como e4/d4 y el rápido desarrollo crean posiciones saludables y oportunidades de ataque.',
       link: '/artigo-aberturas.html'
     },
     {
       image: 'https://images.unsplash.com/photo-1529699211952-734e80c4d42b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1471',
-      title: 'Táticas essenciais: garfo, cravada e raio-X',
-      description: 'Domine padrões táticos que decidem partidas, com exemplos práticos e exercícios.',
+      title: 'Tácticas esenciales: horquilla, clavada y rayos X',
+      description: 'Domina patrones tácticos que deciden partidas, con ejemplos prácticos y ejercicios.',
       link: '/artigo-taticas.html'
     },
     {
       image: 'https://www.chesshouse.com/cdn/shop/products/regulation-chess-set-timer-combo-28273249714263.jpg?v=1628340168&width=700',
-      title: 'Estratégias de médio-jogo',
-      description: 'Transforme vantagens pequenas em vitórias com planos claros e boa coordenação de peças.',
+      title: 'Estrategias de medio juego',
+      description: 'Transforma ventajas pequeñas en victorias con planes claros y buena coordinación de piezas.',
       link: '/artigo-meiojogo.html'
     }
   ]
@@ -26,7 +26,7 @@ export default function BlogPosts() {
     <section className="py-16 md:py-24 bg-white dark:bg-gray-900">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-12 text-center">
-          Artigos em destaque
+          Artículos destacados
         </h2>
         <div className="grid md:grid-cols-3 gap-6">
           {posts.map((post, index) => (
@@ -51,7 +51,7 @@ export default function BlogPosts() {
                   href={post.link}
                   className="text-gold font-semibold hover:underline inline-block"
                 >
-                  Ler mais →
+                  Leer más →
                 </a>
               </div>
             </article>

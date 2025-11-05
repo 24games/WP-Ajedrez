@@ -4,20 +4,20 @@ export default function VisualGuide() {
   const guides = [
     {
       image: 'https://www.chesshouse.com/cdn/shop/products/regulation-chess-set-timer-combo-28273249714263.jpg?v=1628340168&width=700',
-      title: 'O Tabuleiro',
-      description: '64 casas alternadas. Lembre-se: a casa clara à direita de cada jogador.',
+      title: 'El Tablero',
+      description: '64 casillas alternadas. Recuerda: la casilla clara a la derecha de cada jugador.',
       link: '/guia-tabuleiro.html'
     },
     {
       image: 'https://images.unsplash.com/photo-1604948501466-4e9c339b9c24?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1470',
-      title: 'As Peças',
-      description: 'Rei, Dama, Torres, Bispos, Cavalos e Peões: movimentos e valor relativo.',
+      title: 'Las Piezas',
+      description: 'Rey, Dama, Torres, Alfiles, Caballos y Peones: movimientos y valor relativo.',
       link: '/guia-pecas.html'
     },
     {
       image: 'https://images.unsplash.com/photo-1529699211952-734e80c4d42b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1471',
-      title: 'Partidas em Ação',
-      description: 'Observe padrões de abertura, meio-jogo e finais em partidas reais.',
+      title: 'Partidas en Acción',
+      description: 'Observa patrones de apertura, medio juego y finales en partidas reales.',
       link: '/noticias.html'
     }
   ]
@@ -26,11 +26,11 @@ export default function VisualGuide() {
     <section id="guia-visual" className="py-16 md:py-24 bg-gray-50 dark:bg-gray-800">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-6 text-center">
-          Guia Visual: Tabuleiro e Peças
+          Guía Visual: Tablero y Piezas
         </h2>
         <p className="text-lg text-gray-600 dark:text-gray-300 mb-12 text-center max-w-2xl mx-auto">
-          Reconheça o tabuleiro, entenda a disposição inicial e as funções de cada peça.
-          Use estas imagens como referência rápida ao estudar.
+          Reconoce el tablero, entiende la disposición inicial y las funciones de cada pieza.
+          Usa estas imágenes como referencia rápida al estudiar.
         </p>
         <div className="grid md:grid-cols-3 gap-6">
           {guides.map((guide, index) => (
@@ -57,7 +57,7 @@ export default function VisualGuide() {
                   rel={guide.link.startsWith('http') ? 'noopener noreferrer' : undefined}
                   className="text-gold font-semibold hover:underline inline-block"
                 >
-                  {guide.link.startsWith('http') ? 'Ver referência →' : 'Ler mais →'}
+                  {guide.link.startsWith('http') ? 'Ver referencia →' : 'Leer más →'}
                 </a>
               </div>
             </article>

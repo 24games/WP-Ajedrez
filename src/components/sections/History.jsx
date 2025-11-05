@@ -8,23 +8,23 @@ export default function History() {
           <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-200 dark:border-gray-700 order-2 md:order-1">
             <img 
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Chess-king.JPG/960px-Chess-king.JPG?20100812210716" 
-              alt="Peças de xadrez com destaque histórico"
+              alt="Piezas de ajedrez con destaque histórico"
               className="w-full h-auto"
               loading="lazy"
             />
           </div>
           <div className="space-y-6 order-1 md:order-2">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">História do Xadrez</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white">Historia del Ajedrez</h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-              As origens do xadrez remontam ao <em className="italic text-gold">Chaturanga</em>, jogo indiano do século VI.
-              Ao longo dos séculos, o jogo se expandiu pelo Oriente Médio e Europa, ganhando
-              as regras modernas entre os séculos XV e XIX. Seu impacto cultural é vasto,
-              presente em literatura, cinema, educação e esportes de alto rendimento.
+              Los orígenes del ajedrez se remontan al <em className="italic text-gold">Chaturanga</em>, juego indio del siglo VI.
+              A lo largo de los siglos, el juego se expandió por Oriente Medio y Europa, adquiriendo
+              las reglas modernas entre los siglos XV y XIX. Su impacto cultural es vasto,
+              presente en literatura, cine, educación y deportes de alto rendimiento.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-              Com a popularização dos torneios e da computação, o xadrez tornou-se um campo
-              fértil para a ciência de dados, IA e estudos cognitivos, sem perder sua essência
-              humana: criatividade e estratégia.
+              Con la popularización de los torneos y la computación, el ajedrez se convirtió en un campo
+              fértil para la ciencia de datos, IA y estudios cognitivos, sin perder su esencia
+              humana: creatividad y estrategia.
             </p>
           </div>
         </div>
