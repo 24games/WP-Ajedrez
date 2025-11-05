@@ -18,8 +18,8 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-gray-900 dark:text-white mb-4">Links</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-600 dark:text-gray-400 hover:text-gold transition-colors">Política de Privacidade</a></li>
-              <li><a href="#" className="text-gray-600 dark:text-gray-400 hover:text-gold transition-colors">Termos de Uso</a></li>
+              <li><a href="/politicas.html" className="text-gray-600 dark:text-gray-400 hover:text-gold transition-colors">Política de Privacidade</a></li>
+              <li><a href="/termos.html" className="text-gray-600 dark:text-gray-400 hover:text-gold transition-colors">Termos de Uso</a></li>
             </ul>
           </div>
           <div>
