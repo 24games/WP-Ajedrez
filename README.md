@@ -1,35 +1,64 @@
 # Xadrez Brilhante
 
-Site sobre xadrez com conteúdo em português, incluindo dicas, notícias, estratégias e informações sobre o jogo.
+Site sobre xadrez desenvolvido com React e Tailwind CSS, com suporte completo para tema claro e escuro.
 
-## Estrutura do Projeto
+## 🚀 Tecnologias
 
-- `index.html` - Página principal
-- `dicas.html` - Dicas e estratégias de xadrez
-- `noticias.html` - Notícias sobre xadrez
-- `sobre.html` - Sobre o projeto
-- `contato.html` - Página de contato
-- `politicas.html` - Política de privacidade
-- `termos.html` - Termos de uso
-- `styles.css` - Estilos CSS
-- `script.js` - JavaScript
-- `favicon.svg` - Ícone do site
-- `manifest.webmanifest` - Manifesto PWA
-- `sitemap.xml` - Mapa do site
-- `robots.txt` - Configurações para buscadores
+- **React 18** - Biblioteca JavaScript para construção de interfaces
+- **Vite** - Build tool moderna e rápida
+- **Tailwind CSS** - Framework CSS utility-first
+- **Context API** - Gerenciamento de estado para tema
 
-## Tecnologias
+## ✨ Funcionalidades
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-- Responsive Design
+- ✅ Tema claro e escuro com toggle
+- ✅ Design responsivo e moderno
+- ✅ Navegação suave entre seções
+- ✅ Menu mobile funcional
+- ✅ Newsletter com validação
+- ✅ Componentização completa
 
-## Como usar
+## 📦 Instalação
 
-Basta abrir `index.html` em um navegador web ou hospedar os arquivos em um servidor web.
+```bash
+npm install
+```
 
-## Licença
+## 🛠️ Desenvolvimento
 
-© 2024 Xadrez Brilhante
+```bash
+npm run dev
+```
 
+A aplicação estará disponível em `http://localhost:5173`
+
+## 📦 Build
+
+```bash
+npm run build
+```
+
+## 👁️ Preview da Build
+
+```bash
+npm run preview
+```
+
+## 🎨 Tema
+
+O site possui dois temas:
+- **Claro** - Tema padrão com fundo branco
+- **Escuro** - Tema escuro com fundo preto
+
+O tema é salvo no localStorage e persiste entre sessões.
+
+## 📱 Responsivo
+
+O site é totalmente responsivo e adaptável para:
+- Mobile
+- Tablet
+- Desktop
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
