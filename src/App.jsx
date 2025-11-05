@@ -14,6 +14,7 @@ import Benefits from './components/sections/Benefits'
 import BlogPosts from './components/sections/BlogPosts'
 import VisualGuide from './components/sections/VisualGuide'
 import Testimonials from './components/sections/Testimonials'
+import Newsletter from './components/sections/Newsletter'
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <BlogPosts />
           <VisualGuide />
           <Testimonials />
+          <Newsletter />
         </main>
         <Footer />
       </div>

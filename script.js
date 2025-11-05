@@ -104,6 +104,30 @@
     if (yearEl) yearEl.textContent = new Date().getFullYear();
 })();
 
+// Newsletter (validação simples + localStorage)
+(function () {
+    const form = document.getElementById('newsletter-form');
+    const emailInput = document.getElementById('newsletter-email');
+    const hint = document.getElementById('newsletter-hint');
+    if (!form) return;
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const email = String(emailInput.value || '').trim();
+        const valid = /.+@.+\..+/.test(email);
+        if (!valid) {
+            hint.textContent = 'Informe um e-mail válido.';
+            hint.style.color = '#ffb3b3';
+            return;
+        }
+        const key = 'newsletter-subs';
+        const subs = JSON.parse(localStorage.getItem(key) || '[]');
+        if (!subs.includes(email)) subs.push(email);
+        localStorage.setItem(key, JSON.stringify(subs));
+        hint.textContent = 'Obrigado! Você está inscrito.';
+        hint.style.color = '#8fe388';
+        form.reset();
+    });
+})();
 
 // Tabuleiro de Xadrez com AI simples
 (function () {
